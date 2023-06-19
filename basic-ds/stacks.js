@@ -22,10 +22,5 @@ class Stack {
   }
 }
 
-const myStack = new Stack(["Kaori", "Mike"]);
-console.log(myStack.push("Daisy"));
-console.log(myStack.push("Ragnar"));
-console.log(myStack.push("Lola"));
-console.log(myStack.peek());
+const myStack = new Stack();
 console.log(myStack.pop());
-console.log(myStack.peek());
